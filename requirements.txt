@@ -1,0 +1,11 @@
+torch>=2.0.0
+transformers>=4.36.0
+datasets
+pillow
+pandas
+scikit-learn
+joblib
+nltk
+tqdm
+numpy
+qwen-vl-utils  # for Qwen2-VL image processing (optional if not using Qwen)

@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual env
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Data and artifacts (do not commit large data or checkpoints by default)
+data/
+embedding/
+tasks/facet/embedding/
+tasks/counterfactual/embedding/
+tasks/judge/embedding/
+nlp_classification/*.bin
+nlp_classification/*/pytorch_model.bin
+*.pkl
+*.pt
+*.pth
+*.joblib
+result/
+results/
+toxicity_results/
+eval_results/
+cache/
+checkpoint/
+decoded_dataset/
+saved_images/
+
+# OS
+.DS_Store
+Thumbs.db
